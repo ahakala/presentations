@@ -21,8 +21,6 @@ Andy Hakala - Systems Engineer
  - Software Engineers
  - Other systems
  - ...*and even more*!
- - Executives 
- - "Bad Guys"
 @ulend
 @snapend
 
@@ -46,4 +44,6 @@ Andy Hakala - Systems Engineer
 ```
 
 
-
+---
+How this often gets consumed
+[](assets/logging.png)
