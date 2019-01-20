@@ -46,4 +46,4 @@ Andy Hakala - Systems Engineer
 
 ---
 How this often gets consumed
-[](logging/assets/Logging.png)
+![](logging/assets/Logging.png)
