@@ -9,10 +9,10 @@ Andy Hakala - Systems Engineer
 
 ---
 
-## Logging
-
+## _Logging_
+@ul
 ### The way that systems keep track of what happened, when it happened, and by whom
-
+@ulend
 ---
 @snap[west span-55]
 ## Who is interested in logs?
@@ -22,10 +22,14 @@ Andy Hakala - Systems Engineer
  - System Admins
  - Software Engineers
  - Other systems
-...*and even more*!
+ - ...*and even more*!
  - Executives 
  - "Bad Guys"
-*more on these later*
+@ulend
+@snapend
+
+---
+
 
 
 
