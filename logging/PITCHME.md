@@ -65,12 +65,12 @@ A better way...
 ![](logging/assets/img/Log-Agg.png)
 
 +++
+### Why this is better
 
 @snap[west span-45]
 ![](logging/assets/img/Log-Agg.png)
 @snapend
 @snap[east span-55]
-### Why this is better
  - shared view of the system
  - encourages shared practices
  - information valuable in new ways
@@ -85,11 +85,11 @@ A better way...
 ---
 ## Pactices
 
-+++
-@size[.5em]("A twelve-factor app never concerns itself with routing or storage of its output stream. It should not attempt to write to or manage logfiles. Instead, each running process writes its event stream, unbuffered, to stdout. During local development, the developer will view this stream in the foreground of their terminal to observe the app’s behavior. In staging or production deploys, each process’ stream will be captured by the execution environment, collated together with all other streams from the app, and routed to one or more final destinations for viewing and long-term archival. These archival destinations are not visible to or configurable by the app, and instead are completely managed by the execution environment."
-https://12factor.net/logs)
+---
+@size[.5em]("A twelve-factor app never concerns itself with routing or storage of its output stream. It should not attempt to write to or manage logfiles. Instead, each running process writes its event stream, unbuffered, to stdout. During local development, the developer will view this stream in the foreground of their terminal to observe the app’s behavior. In staging or production deploys, each process’ stream will be captured by the execution environment, collated together with all other streams from the app, and routed to one or more final destinations for viewing and long-term archival. These archival destinations are not visible to or configurable by the app, and instead are completely managed by the execution environment." --https://12factor.net/logs)
 
-+++
+---
+### General Rules 
 1. Log to standard out
 2. If a file or location must be specified, make it configurable at runtime
 3. Don't ship directly from the app to something like Splunk or Elastic 
