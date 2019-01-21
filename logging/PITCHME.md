@@ -68,7 +68,7 @@ A better way...
 @snap[north]
 ### Why this is better
 @snapend
-@snap[west span-45]
+@snap[south-west span-45]
 ![](logging/assets/img/Log-Agg.png)
 @snapend
 @snap[east span-55]
