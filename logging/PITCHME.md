@@ -95,5 +95,18 @@ A better way...
 2. If a file or location must be specified, make it configurable at runtime
 3. Don't ship directly from the app to something like Splunk or Elastic 
 
+---
+### General Gotchas 
+1. Things get interesting fast when working with customers and customer data. Understand the context of data at all times
+2. "My app seems to be missing some logs"
+  - Make sure that all of the components of the system are configured to log in the same way
+  - **Do start writing to a file instead**
+3. ...but situation that breaks things is only caught when logging to a file
+  - I think you know the answer...
+4. Don't write a logging solution or logging library. Every language has one. (see the next slide)
 
-
+---
+### Wrap up
+ - Reading the logs is a great, albeit tedious, way to learn about a system
+ - Aggregating logs may provide some the most immeadieate results when it comes to engineering reliable systems
+ - Logs do not read themselves! ;) 
