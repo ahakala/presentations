@@ -26,7 +26,7 @@ Andy Hakala - Systems Engineer
 
 ---
 
-## When is this stuff valueable?
+## When is this stuff valuable?
 @ul 
  - When something unexpected happens
  - To confirm something expected actually happened
